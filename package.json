@@ -1,0 +1,26 @@
+{
+  "name": "filter-key",
+  "version": "0.1.1",
+  "author": "Rasmus Eneman <rasmus@eneman.eu>",
+  "repository": "Pajn/filter-key",
+  "dependencies": {
+    "@types/jest": "19.2.2",
+    "@types/webpack": "2.2.14"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.38",
+    "react": "^15.6.1",
+    "tscomp": "^0.13.0"
+  },
+  "tscomp": {
+    "mode": "lib"
+  },
+  "scripts": {
+    "build": "tscomp build",
+    "test": "tscomp test",
+    "eject": "tscomp eject",
+    "watch": "tscomp watch"
+  },
+  "main": "./cjs/index.js",
+  "typings": "./cjs/index.d.ts"
+}
