@@ -1,6 +1,6 @@
 {
   "name": "filter-key",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Rasmus Eneman <rasmus@eneman.eu>",
   "repository": "Pajn/filter-key",
   "dependencies": {
@@ -24,5 +24,6 @@
     "report-coverage": "cat coverage/lcov.info | coveralls"
   },
   "main": "./cjs/index.js",
-  "typings": "./cjs/index.d.ts"
+  "typings": "./cjs/index.d.ts",
+  "license": "BSD-3-Clause"
 }
