@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@types/react": "^15.0.38",
+    "coveralls": "^2.13.1",
     "react": "^15.6.1",
     "tscomp": "^0.13.0"
   },
@@ -19,7 +20,8 @@
     "build": "tscomp build",
     "test": "tscomp test",
     "eject": "tscomp eject",
-    "watch": "tscomp watch"
+    "watch": "tscomp watch",
+    "report-coverage": "cat coverage/lcov.info | coveralls"
   },
   "main": "./cjs/index.js",
   "typings": "./cjs/index.d.ts"
