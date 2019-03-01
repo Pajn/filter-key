@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@types/react": "^15.0.38",
-    "coveralls": "^2.13.1",
+    "coveralls": "^3.0.3",
     "react": "^15.6.1",
     "tscomp": "^0.13.0"
   },
