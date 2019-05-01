@@ -4,7 +4,7 @@
   "author": "Rasmus Eneman <rasmus@eneman.eu>",
   "repository": "Pajn/filter-key",
   "dependencies": {
-    "@types/jest": "19.2.2",
+    "@types/jest": "24.0.12",
     "@types/webpack": "2.2.14"
   },
   "devDependencies": {
